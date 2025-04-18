@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="./script.js"></script>
+    <title>Questões de JavaScript (Projeto 2)</title>
+    </head>
+
+    <body>
+        <h1>Questões de JavaScript (Projeto 2)</h1>
+        <div class="questionario">
+        
+            <div class="questao">
+                <h2>1. Par ou Ímpar</h2>
+                <input type="number" id="numero1" placeholder="Digite um número">
+                <button onclick="verificaParOuImpar()">Verificar</button>
+
+                <div class="output" id="out1"></div>
+            </div>
+
+            <div class="questao">
+                <h2>2. Maior número</h2>
+                <input type="number" id="num1" placeholder="Número 1">
+                <input type="number" id="num2" placeholder="Número 2">
+                <button onclick="verificaMaior()">Verificar</button>
+
+                <div class="output" id="out2"></div>
+            </div>
+
+            <div class="questao">
+                <h2>3. Pode votar?</h2>
+                <input type="number" id="anoNascimento" placeholder="Ano de nascimento">
+                <button onclick="verificaVoto()">Verificar</button>
+
+                <div class="output" id="out3"></div>
+            </div>
+
+            <div class="questao">
+                <h2>4. Novo salário</h2>
+                <input type="number" id="salario" placeholder="Salário atual">
+                <input type="number" id="reajuste" placeholder="Reajuste (%)">
+                <button onclick="calculaSalario()">Calcular</button>
+
+                <div class="output" id="out4"></div>
+            </div>
+
+            <div class="questao">
+                <h2>5. Dia da semana</h2>
+                <input type="number" id="dia" placeholder="Número de 1 a 7">
+                <button onclick="diaSemana()">Mostrar</button>
+
+                <div class="output" id="out5"></div>
+            </div>
+
+            <div class="questao">
+                <h2>6. Contar até o número</h2>
+                <input type="number" id="num6" placeholder="Número inteiro positivo">
+                <button onclick="contarAte()">Contar</button>
+
+                <div class="output" id="out6"></div>
+            </div>
+
+            <div class="questao">
+                <h2>7. Soma de menores</h2>
+                <input type="number" id="num7" placeholder="Número inteiro positivo">
+                <button onclick="somaMenores()">Somar</button>
+
+                <div class="output" id="out7"></div>
+            </div>
+
+            <div class="questao">
+                <h2>8. Números ímpares</h2>
+                <input type="number" id="num8" placeholder="Número inteiro positivo">
+                <button onclick="impares()">Mostrar</button>
+
+                <div class="output" id="out8"></div>
+            </div>
+
+            <div class="questao">
+                <h2>9. Soma menor que 30</h2>
+                <input type="text" id="lista9" placeholder="Ex: 10-20-30-40-50">
+                <button onclick="somaMenores30()">Somar</button>
+
+                <div class="output" id="out9"></div>
+            </div>
+
+            <div class="questao">
+                <h2>10. Quantidade > 50</h2>
+                <input type="text" id="lista10" placeholder="Ex: 10/20/60/70/30">
+                <button onclick="contaMaiores50()">Contar</button>
+
+                <div class="output" id="out10"></div>
+            </div>
+
+            <div class="questao">
+                <h2>11. Inverter string</h2>
+                <input type="text" id="string11" placeholder="Digite uma palavra">
+                <button onclick="inverterString()">Inverter</button>
+
+                <div class="output" id="out11"></div>
+            </div>
+
+            <div class="questao">
+                <h2>12. Primeira e última maiúsculas</h2>
+                <input type="text" id="string12" placeholder="letras minúsculas">
+                <button onclick="formatarString()">Formatar</button>
+
+                <div class="output" id="out12"></div>
+            </div>
+
+        </div>
+    </body>
+</html>
